@@ -174,3 +174,9 @@ html, body {
         transform: translateX(-100%);
     }
 }
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
