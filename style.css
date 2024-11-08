@@ -180,3 +180,23 @@ html, body {
   justify-content: center;
 }
 
+/* Default styles for desktop */
+body {
+  font-size: 18px;
+}
+
+/* Tablet styles */
+@media (max-width: 768px) {
+  body {
+    font-size: 16px;
+  }
+}
+
+/* Phone styles */
+@media (max-width: 480px) {
+  body {
+    font-size: 14px;
+  }
+}
+
+
