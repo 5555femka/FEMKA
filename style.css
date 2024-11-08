@@ -198,5 +198,13 @@ body {
     font-size: 14px;
   }
 }
+.container {
+  width: 90%; /* Instead of a fixed width */
+  max-width: 1200px;
+}
 
+img {
+  max-width: 100%;
+  height: auto;
+}
 
